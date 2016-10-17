@@ -1,0 +1,1 @@
+/Users/userName/Library/Developer/Xcode/Templates/NameOfTemplate
