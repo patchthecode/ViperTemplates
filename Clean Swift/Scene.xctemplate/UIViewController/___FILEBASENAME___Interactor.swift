@@ -10,11 +10,11 @@
 import UIKit
 
 protocol ___FILEBASENAMEASIDENTIFIER___InteractorInput {
-    func doSomething(request: ___FILEBASENAMEASIDENTIFIER___.___VARIABLE_sceneTask___.Request)
+    func doSomething(request: ___FILEBASENAMEASIDENTIFIER___Scene.___VARIABLE_sceneTask___.Request)
 }
 
 protocol ___FILEBASENAMEASIDENTIFIER___InteractorOutput {
-    func presentSomething(response: ___FILEBASENAMEASIDENTIFIER___.___VARIABLE_sceneTask___.Response)
+    func presentSomething(response: ___FILEBASENAMEASIDENTIFIER___Scene.___VARIABLE_sceneTask___.Response)
 }
 
 class ___FILEBASENAMEASIDENTIFIER___Interactor: ___FILEBASENAMEASIDENTIFIER___InteractorInput {
@@ -22,15 +22,14 @@ class ___FILEBASENAMEASIDENTIFIER___Interactor: ___FILEBASENAMEASIDENTIFIER___In
     var worker: ___FILEBASENAMEASIDENTIFIER___Worker!
 
     // MARK: Business logic
-    func doSomething(request: ___FILEBASENAMEASIDENTIFIER___.___VARIABLE_sceneTask___.Request) {
+    func doSomething(request: ___FILEBASENAMEASIDENTIFIER___Scene.___VARIABLE_sceneTask___.Request) {
         // NOTE: Create some Worker to do the work
 
         worker = ___FILEBASENAMEASIDENTIFIER___Worker()
         worker.doSomeWork()
 
         // NOTE: Pass the result to the Presenter
-
-        let response = ___FILEBASENAMEASIDENTIFIER___.___VARIABLE_sceneTask___.Response()
+        let response = ___FILEBASENAMEASIDENTIFIER___Scene.___VARIABLE_sceneTask___.Response()
         output.presentSomething(response: response)
     }
 }

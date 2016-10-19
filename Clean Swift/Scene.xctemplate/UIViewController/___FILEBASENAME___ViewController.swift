@@ -10,11 +10,11 @@
 import UIKit
 
 protocol ___FILEBASENAMEASIDENTIFIER___ViewControllerInput {
-    func displaySomething(viewModel: ___FILEBASENAMEASIDENTIFIER___.___VARIABLE_sceneTask___.ViewModel)
+    func displaySomething(viewModel: ___FILEBASENAMEASIDENTIFIER___Scene.___VARIABLE_sceneTask___.ViewModel)
 }
 
 protocol ___FILEBASENAMEASIDENTIFIER___ViewControllerOutput {
-  func doSomething(request: ___FILEBASENAMEASIDENTIFIER___.___VARIABLE_sceneTask___.Request)
+  func doSomething(request: ___FILEBASENAMEASIDENTIFIER___Scene.___VARIABLE_sceneTask___.Request)
 }
 
 class ___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController, ___FILEBASENAMEASIDENTIFIER___ViewControllerInput {
@@ -36,12 +36,12 @@ class ___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController, ___FILEBAS
     // MARK: Event handling
     func doSomethingOnLoad() {
         // NOTE: Ask the Interactor to do some work
-        let request = ___FILEBASENAMEASIDENTIFIER___.___VARIABLE_sceneTask___.Request()
+        let request = ___FILEBASENAMEASIDENTIFIER___Scene.___VARIABLE_sceneTask___.Request()
         output.doSomething(request: request)
     }
 
     // MARK: Display logic
-    func displaySomething(viewModel: ___FILEBASENAMEASIDENTIFIER___.___VARIABLE_sceneTask___.ViewModel) {
+    func displaySomething(viewModel: ___FILEBASENAMEASIDENTIFIER___Scene.___VARIABLE_sceneTask___.ViewModel) {
         // NOTE: Display the result from the Presenter
         // nameTextField.text = viewModel.name
     }
