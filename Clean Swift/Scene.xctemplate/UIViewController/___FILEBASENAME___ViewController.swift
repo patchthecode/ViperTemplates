@@ -14,7 +14,7 @@ protocol ___FILEBASENAMEASIDENTIFIER___ViewControllerInput {
 }
 
 protocol ___FILEBASENAMEASIDENTIFIER___ViewControllerOutput {
-  func doSomething(request: ___FILEBASENAMEASIDENTIFIER___Scene.___VARIABLE_sceneTask___.Request)
+    func doSomething(request: ___FILEBASENAMEASIDENTIFIER___Scene.___VARIABLE_sceneTask___.Request)
 }
 
 class ___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController, ___FILEBASENAMEASIDENTIFIER___ViewControllerInput {

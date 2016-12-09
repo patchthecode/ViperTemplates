@@ -10,11 +10,11 @@
 import UIKit
 
 protocol ___FILEBASENAMEASIDENTIFIER___PresenterInput {
-  func presentSomething(response: ___FILEBASENAMEASIDENTIFIER___Scene.___VARIABLE_sceneTask___.Response)
+    func presentSomething(response: ___FILEBASENAMEASIDENTIFIER___Scene.___VARIABLE_sceneTask___.Response)
 }
 
 protocol ___FILEBASENAMEASIDENTIFIER___PresenterOutput: class {
-  func displaySomething(viewModel: ___FILEBASENAMEASIDENTIFIER___Scene.___VARIABLE_sceneTask___.ViewModel)
+    func displaySomething(viewModel: ___FILEBASENAMEASIDENTIFIER___Scene.___VARIABLE_sceneTask___.ViewModel)
 }
 
 class ___FILEBASENAMEASIDENTIFIER___Presenter: ___FILEBASENAMEASIDENTIFIER___PresenterInput {
